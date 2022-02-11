@@ -7,7 +7,8 @@ TEST GIT PUSH
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/equations.png)
+  ![equations](https://user-images.githubusercontent.com/99410896/153607571-2dcf2d30-95bd-4fc4-9a0a-2d4314a0bed3.png)
+
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
