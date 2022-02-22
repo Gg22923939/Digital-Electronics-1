@@ -1,4 +1,3 @@
-# Hi, just make sure you log out from your Github acc after the lesson :) 
 
 
 # Lab 2: Jia-Yang Wang
@@ -8,15 +7,16 @@
 
    Greater than:
 
-   ![K-maps](https://i.postimg.cc/JhfZSqNh/kmap-Greater-than.png)
+   ![K-maps](https://i.postimg.cc/zX4XDdfw/kmap-Greater-than.png)
 
    Less than:
 
-   ![K-maps](https://i.postimg.cc/BvK15Krf/kmap-Less-than.png)
+   ![K-maps](https://i.postimg.cc/LX4mQwyS/kmap-Less-than.png)
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   ![Logic functions](images/comparator_min.png)
+   ![Logic functions](https://i.postimg.cc/52x12ZVC/Code-Cogs-Eqn.png)
+   ![Logic functions](https://i.postimg.cc/SKh9RQKG/Code-Cogs-Eqn-1.png)
 
 ### 4-bit comparator
 
