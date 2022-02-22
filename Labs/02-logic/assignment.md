@@ -1,3 +1,6 @@
+Hi, just make sure you log out from your Github acc after the lesson :) 
+
+
 # Lab 2: Jia-Yang Wang
 ### 2-bit comparator
 
