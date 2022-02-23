@@ -31,20 +31,28 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT"; -- Such as "0101" if ID = xxxx56
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";        -- Such as "0110" if ID = xxxx56
+
+        s_b <= "0011"; --BCD_OF_YOUR_SECOND_LAST_ID_DIGIT ID: xxxx36
+        s_a <= "0110"; --BCD_OF_YOUR_LAST_ID_DIGIT ID: xxxx36
         wait for 100 ns;
+
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
         -- If false, then report an error
-        report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
+        report "Input combination 00, 00 FAILED" severity error;
+
+
+        -- WRITE OTHER TEST CASES HERE
+		
 
         -- Report a note at the end of stimulus process
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
+
+end architecture testbench;
 ```
 
 2. Text console screenshot during your simulation, including reports.
