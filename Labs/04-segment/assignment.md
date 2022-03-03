@@ -1,4 +1,65 @@
 # Lab 4: Jia-Yang Wang
+<table>
+  <tr>
+    <td>Hex</td>
+    <td>Inputs</td>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+    <td>D</td>
+    <td>F</td>
+    <td>G</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0000</td>
+  <tr>
+    <td>1</td>
+    <td>0001</td>
+  <tr>
+    <td>2</td>
+    <td>0010</td>
+  <tr>
+    <td>3</td>
+    <td>0011</td>
+   <tr>
+    <td>4</td>
+    <td>0100</td>
+  <tr>
+    <td>5</td>
+    <td>0101</td>
+  <tr>
+    <td>6</td>
+    <td>0110</td>
+  <tr>
+    <td>7</td>
+    <td>0111</td>
+   <tr>
+    <td>8</td>
+    <td>1000</td>
+  <tr>
+    <td>9</td>
+    <td>1001</td>
+  <tr>
+    <td>A</td>
+    <td>1010</td>
+  <tr>
+    <td>B</td>
+    <td>1011</td>
+  <tr>
+    <td>C</td>
+    <td>1100</td>
+  <tr>
+    <td>D</td>
+    <td>1101</td>
+  <tr>
+    <td>E</td>
+    <td>1110</td>
+  <tr>
+    <td>F</td>
+    <td>1111</td>
+    
+</table>
 
 ### Seven-segment display decoder
 
