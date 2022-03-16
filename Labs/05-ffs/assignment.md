@@ -16,8 +16,14 @@ begin
     --------------------------------------------------------
     p_t_ff_rst : process(clk)
     begin
-
-        -- WRITE YOUR CODE HERE
+    
+        if rising_edge(clk) then  -- Synchronous process
+            if(rst = '1') then   -- USE HIGH;-ACTIVE RESET HERE
+                s_q <= '0';               
+            else
+                s_q <= ((t and (not(s_q))) or ((not t) and s_q));
+            end if;
+        end if;
 
     end process p_t_ff_rst;
 
@@ -35,4 +41,6 @@ end architecture Behavioral;
 
 1. Image of the shift register `top` level schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   
+   <img width="684" alt="Shifter" src="https://user-images.githubusercontent.com/99410896/158682330-44eee6ac-a6f4-431d-890d-9e631a80d77f.png">
+
