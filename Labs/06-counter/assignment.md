@@ -56,4 +56,5 @@ voltage value = 3.3V
 
 1. Image of the top layer structure including both counters, ie a 4-bit bidirectional counter from *Part 4* and a 16-bit counter with a 10 ms time base from *Experiments on your own*. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   ![Two counters](https://user-images.githubusercontent.com/99410896/159720091-bd52b515-90f1-4bef-b0a9-37b997724e77.jpg)
+
