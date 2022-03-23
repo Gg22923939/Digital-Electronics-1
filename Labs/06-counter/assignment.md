@@ -49,7 +49,8 @@ voltage value = 3.3V
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   <img width="956" alt="Waveform" src="https://user-images.githubusercontent.com/99410896/159708440-dcecfec7-b355-4cbf-9165-27a1d0f5dfbc.png">
+
 
 ### Two counters
 
