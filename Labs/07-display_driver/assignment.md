@@ -43,7 +43,7 @@
     -- selecting data for a single digit, a decimal point 
     -- signal, and switches the common anodes of each display.
     --------------------------------------------------------
-    p_mux : process(clk)
+p_mux : process(clk)
     begin
         if rising_edge(clk) then
             if (reset = '1') then
@@ -51,20 +51,23 @@
                 dp_o  <= dp_i(0);
                 dig_o <= "1110";
             else
-                case s_cnt is
+                case s_cnt is -- selection lines of multiplexer
                     when "11" =>
                         s_hex <= data3_i;
                         dp_o  <= dp_i(3);
-                        dig_o <= "0111";
-
+                        dig_o <= "0111"; -- Common anode signals to individual displays, when "0111", which mean the leftmost will be controled.
                     when "10" =>
-                        -- WRITE YOUR CODE HERE
-
+                        s_hex <= data2_i;
+                        dp_o  <= dp_i(2);
+                        dig_o <= "1011";
                     when "01" =>
-                        -- WRITE YOUR CODE HERE
-
+                        s_hex <= data1_i;
+                        dp_o  <= dp_i(1);
+                        dig_o <= "1101";
                     when others =>
-                        -- WRITE YOUR CODE HERE
+                        s_hex <= data0_i;
+                        dp_o  <= dp_i(0);
+                        dig_o <= "1110";
                 end case;
             end if;
         end if;
@@ -73,7 +76,8 @@
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   <img width="948" alt="simulated time waveforms" src="https://user-images.githubusercontent.com/99410896/160240445-2dff22d9-ac69-4be7-8781-6087c99a2022.png">
+
 
 ### Eight-digit driver
 
