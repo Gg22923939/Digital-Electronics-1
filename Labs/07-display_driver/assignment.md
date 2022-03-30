@@ -83,4 +83,5 @@ p_mux : process(clk)
 
 1. Image of the 8-digit driver's block schematic. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   ![Eight-digit driver](https://user-images.githubusercontent.com/99410896/160905083-c22765e8-682b-498e-a9fe-5308501a865f.png)
+
