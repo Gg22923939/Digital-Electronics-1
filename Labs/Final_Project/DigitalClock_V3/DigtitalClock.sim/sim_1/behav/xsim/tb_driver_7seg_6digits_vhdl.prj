@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../DigtitalClock.srcs/sources_1/new/clock_enable.vhd" \
+"../../../../DigtitalClock.srcs/sources_1/new/Clock.vhd" \
+"../../../../DigtitalClock.srcs/sources_1/new/cnt_up_down.vhd" \
+"../../../../DigtitalClock.srcs/sources_1/new/hex_7seg.vhd" \
+"../../../../DigtitalClock.srcs/sources_1/new/driver_7seg_6digits.vhd" \
+"../../../../DigtitalClock.srcs/sim_1/new/tb_driver_7seg_6digits.vhd" \
+
+# Do not sort compile order
+nosort
